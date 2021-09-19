@@ -1,0 +1,6 @@
+testtask:
+  build: .
+  ports:
+   - "80:8080"
+  volumes:
+    - ../flask_app:/flask_app
